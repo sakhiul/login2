@@ -1,0 +1,115 @@
+* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  height: 450px;
+  width: 400px;
+  border: none;
+  outline: 0cap;
+  /* background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(125,160,182,1) 100%); */
+  background: transparent;
+  border-radius: 8px;
+  /*box-shadow: 5px 5px 40px rgb(87, 86, 86);*/
+  box-shadow: 1px 1px 20px rgb(87, 86, 86);
+}
+.container:hover {
+  box-shadow: 1px 1px 20px rgb(87, 86, 86);
+  border: 1px solid whitesmoke;
+}
+
+h1 {
+  margin: 30px auto;
+  text-align: center;
+  color: aliceblue;
+}
+
+.divs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#username {
+  margin: 10px 20px;
+  padding: 10px 30px;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  outline: none;
+  color: white;
+  font-size: large;
+}
+#password {
+  margin: 10px 20px;
+  padding: 10px 30px;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  outline: none;
+  color: white;
+  font-size: large;
+}
+::placeholder {
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+  text-align: left;
+  justify-content: center;
+}
+#login {
+  margin-top: 60px;
+  padding: 15px 40px;
+  border-radius: 15px;
+  border: 0;
+  cursor: pointer;
+}
+#login:hover {
+  background-color: blanchedalmond;
+  font-size: large;
+}
+#username:hover {
+  padding: 10px 10px;
+  border-bottom: 4px solid blanchedalmond;
+}
+#password:hover {
+  padding: 10px 10px;
+  border-bottom: 4px solid blanchedalmond;
+}
+.forgot {
+  font-size: smaller;
+  position: absolute;
+  margin-left: 176px;
+  margin-bottom: 70px;
+}
+
+.signup {
+  text-align: center;
+  justify-content: center;
+  margin-top: 70px;
+  color: white;
+}
+a {
+  outline: none;
+  color: blanchedalmond;
+}
+a:hover {
+  opacity: 50%;
+}
